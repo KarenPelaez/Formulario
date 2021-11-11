@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+<meta charset="UTF-8">
+<meta name="authot" contenet "KarenPelaez"/>
+<title>Página tributo</title>
+</head>
+
+<body>
+<main>
+<br>
+<div id= "principal">
+<h1 id ="titulo" clase ="centro">Formulario</h1>
+<p id= "creador">Creador: Karen Peláez</p>
+
+<form id="survey-form¨ action=¨/formulario¨ method=¨GET¨>
+<p id="description" >Por favor rellenar el siguiente formulario</p>
+<label for="Nombre"> Nombre: </label><br>
+<input id="name" id="name-label" type="nombre" name="Nombre" placeholder = "Nombre"  size ="45" required>
+<br>
+<br>
+<label for="Email"> E-mail:</label><br>
+<input id="email" id="email-label" type="email" name="email" placeholder = "E-mail" size ="45" required>
+<br>
+<br>
+<label for="Edad">Edad:</label>
+<input id="number-label" type="number" name="edad" min="18" max="100" placeholder = "Edad" required>
+<br>
+<br>
+<label for="Ocupación" id="dropdown">Ocupación:</label>
+<select name= "Ocupación " id= "Ocupación ">
+<option value = "Selecciona ">Selecciona una opción</option>
+<option value = "Estudiante">Estudiante</option>
+<option value = "Profesionista">Profesionista</option>
+<option value = "Empleado">Empleado</option>
+</select>
+
+<p> ¿Cuáles son los tipos de paginas que le gusta visitar?</p>
+<filset><legend> Selecciona una de las opciones </legend> </filset>
+<br>
+<input type="radio" id="Sitio web corporativo" name="Sitio" value="pagina">
+  <label for="Sitiowebcorporativo">Sitio web corporativo</label>
+<br>
+  <input type="radio" id="Porfolio" name="Porfolio" value="pagina">
+  <label for="Porfolio">Porfolio</label>
+<br>
+  <input type="radio" id="Blog_magazine" name="Blog" value="pagina">
+  <label for="Blog_magazine">Blog/magazine</label>
+<br>
+  <input type="radio" id="Micrositios" name="Micrositios" value="pagina">
+  <label for="Micrositios">Micrositios</label>
+<br>
+  <input type="radio" id="Tienda_online" name="Tienda" value="pagina">
+  <label for="Tienda online">Tienda online</label>
+<br>
+  <input type="radio" id="Aplicaciones_web" name="Aplicaciones" value="pagina">
+  <label for="Aplicaciones_web">Aplicaciones web</label>
+<br>
+<br>
+<label for="Comentario"> Comentario:</label>
+<br>
+<textarea cols=¨50¨ rows=¨10¨ id="Cometario" placeholder = "Cometario" name:"Cometario" >
+</textarea>
+<br>
+<br>
+<input id="submit"  type= "button" value ="Enviar">
+<input id="reset" type="reset">
+</div>
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+</main>
+</body>
+
+</html>
+
+
+<style>
+
+body {
+background-image: url("https://images.techopedia.com/images/uploads/spiral-text.jpg");
+background-repeat: repeat;
+background-attachment: fixed;
+height: 450px;
+background-position: center;
+background-size: cover;
+<---  margin: 0 0 0 0;
+  padding: 10px;--->
+}
+
+p, form {
+  text-align: center;
+  font-family: "Arial";
+  font-size: 16px;
+  color: #062462;
+}
+h1 {
+  font-size: 35px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: "Arial";
+  color: #1143AB;
+}
+
+#principal {
+  height: 700px;
+  width: 420px;  
+  background-color: rgb(251, 252, 240);
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+}
+</style>
+
